@@ -1,0 +1,4 @@
+2018-04-09 09:55:16,666 INFO (StartupInfoLogger.java:50)- Starting ServiceApplication on DESKTOP-S647M8C with PID 9104 (started by msi in E:\Github Repositories\Service-practice)
+2018-04-09 09:55:16,666 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-04-09 09:55:16,666 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-09 09:55:19,213 INFO (StartupInfoLogger.java:59)- Started ServiceApplication in 3.438 seconds (JVM running for 5.19)

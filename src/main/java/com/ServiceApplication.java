@@ -1,4 +1,4 @@
-package com.service;
+package com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ServiceApplication {
 	protected final Logger log = LoggerFactory.getLogger(this.getClass());
 
-	@RequestMapping(value = "/wordladder")
+	@RequestMapping(value = "/user/wordladder")
 	public String ladder(String a, String b) throws IOException
 	{
 		log.debug("Creating wordladder between word " + a + " and " + b + "\n");

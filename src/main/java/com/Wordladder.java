@@ -1,7 +1,7 @@
 /*This program create a word ladder from one word to another.After two words and the filename are entered, it store the file into a set as dictionary, then create a queue of stacks, each stack is a ladder.
 For each stack, the program will find all neighbor words of its top word, create a new stack by pushing the word into a copy of the stack for each word, and push the new stack into the queue one by one.
 Meanwhile, old stacks will be deleted. Once a complete ladder is found, it will be printed.*/
-package com.service;
+package com;
 import java.io.*;
 import java.util.*;
 
